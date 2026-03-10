@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/estructura-de-datos.iml" filepath="$PROJECT_DIR$/.idea/estructura-de-datos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ranking-videojuegos/ranking-videojuegos.iml" filepath="$PROJECT_DIR$/ranking-videojuegos/ranking-videojuegos.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-academico/sistema-academico.iml" filepath="$PROJECT_DIR$/sistema-academico/sistema-academico.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-contactos/sistema-contactos.iml" filepath="$PROJECT_DIR$/sistema-contactos/sistema-contactos.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-contactos-arraylist/sistema-contactos-arraylist.iml" filepath="$PROJECT_DIR$/sistema-contactos-arraylist/sistema-contactos-arraylist.iml" />
