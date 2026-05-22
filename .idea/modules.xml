@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Arboles-Generales-Binarios-Recursion.iml" filepath="$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Arboles-Generales-Binarios-Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-1/Ejercicio-1.iml" filepath="$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-1/Ejercicio-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-2/Ejercicio-2.iml" filepath="$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-2/Ejercicio-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-3/Ejercicio-3.iml" filepath="$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-3/Ejercicio-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-4/Ejercicio-4.iml" filepath="$PROJECT_DIR$/Arboles-Generales-Binarios-Recursion/Ejercicio-4/Ejercicio-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/estructura-de-datos.iml" filepath="$PROJECT_DIR$/.idea/estructura-de-datos.iml" />
       <module fileurl="file://$PROJECT_DIR$/listas-circulares/listas-circulares.iml" filepath="$PROJECT_DIR$/listas-circulares/listas-circulares.iml" />
       <module fileurl="file://$PROJECT_DIR$/ranking-videojuegos/ranking-videojuegos.iml" filepath="$PROJECT_DIR$/ranking-videojuegos/ranking-videojuegos.iml" />

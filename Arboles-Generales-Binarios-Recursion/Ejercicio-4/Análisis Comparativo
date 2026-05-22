@@ -1,0 +1,26 @@
+# Ejercicio 4: Análisis Comparativo - Árbol Binario de Búsqueda vs Lista Enlazada
+
+## Tabla Comparativa
+
+| Criterio                  | Lista Enlazada                                  | Árbol Binario de Búsqueda (BST)                               |
+| :------------------------ | :---------------------------------------------- | :------------------------------------------------------------ |
+| **Organización**          | Lineal, secuencial.                             | Jerárquica, nodos con relaciones padre-hijo.                  |
+| **Forma de búsqueda**     | Secuencial, desde el inicio hasta encontrar el elemento. | Basada en comparaciones, se dirige a la izquierda o derecha. |
+| **Complejidad temporal promedio** | O(n) para búsqueda, inserción y eliminación. | O(log n) para búsqueda, inserción y eliminación (balanceado). |
+| **Uso de memoria**        | O(n) para almacenar los elementos y punteros.   | O(n) para almacenar los elementos y punteros.                 |
+| **Inserción**             | Simple, se añade al final o en una posición específica. | Requiere mantener la propiedad de orden del árbol.            |
+
+## Preguntas de Reflexión
+
+1.  **¿Qué ocurre si el árbol binario de búsqueda se desbalancea?**
+    Si un BST se desbalancea, su estructura se vuelve más parecida a la de una lista enlazada. Esto significa que la complejidad temporal para operaciones como búsqueda, inserción y eliminación puede degradarse de O(log n) a O(n) en el peor de los casos. Esto ocurre cuando los elementos se insertan en un orden que crea una rama muy larga, perdiendo la eficiencia de la búsqueda binaria.
+
+2.  **¿Por qué un BST puede acercarse a O(log n)?**
+    Un BST puede acercarse a una complejidad de O(log n) cuando está balanceado. En un árbol balanceado, cada comparación al buscar un elemento elimina aproximadamente la mitad de los elementos restantes de la consideración. Esto es similar a la búsqueda binaria en un arreglo ordenado, donde el número de pasos necesarios para encontrar un elemento es proporcional al logaritmo de la cantidad de elementos (log₂n).
+
+3.  **¿En qué casos una lista enlazada puede ser suficiente o más simple?**
+    Una lista enlazada puede ser suficiente o más simple en los siguientes casos:
+    *   **Cuando el orden de inserción es importante y no se requiere búsqueda eficiente**: Por ejemplo, para implementar una cola o una pila.
+    *   **Cuando las inserciones y eliminaciones son frecuentes en los extremos**: Las listas enlazadas son muy eficientes para añadir o quitar elementos al principio o al final (O(1) en listas doblemente enlazadas).
+    *   **Cuando la cantidad de elementos es pequeña**: Para un número reducido de elementos, la sobrecarga de mantener un BST balanceado puede no justificar el beneficio en complejidad.
+    *   **Cuando el acceso es predominantemente secuencial**: Si la mayoría de las operaciones implican recorrer la estructura de principio a fin, la lista enlazada es adecuada.
