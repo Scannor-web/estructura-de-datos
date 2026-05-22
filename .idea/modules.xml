@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/estructura-de-datos.iml" filepath="$PROJECT_DIR$/.idea/estructura-de-datos.iml" />
       <module fileurl="file://$PROJECT_DIR$/listas-circulares/listas-circulares.iml" filepath="$PROJECT_DIR$/listas-circulares/listas-circulares.iml" />
       <module fileurl="file://$PROJECT_DIR$/ranking-videojuegos/ranking-videojuegos.iml" filepath="$PROJECT_DIR$/ranking-videojuegos/ranking-videojuegos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simulacion-impresora-cola/simulacion-impresora-cola.iml" filepath="$PROJECT_DIR$/simulacion-impresora-cola/simulacion-impresora-cola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simulacion-navegador-pila/simulacion-navegador-pila.iml" filepath="$PROJECT_DIR$/simulacion-navegador-pila/simulacion-navegador-pila.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-academico/sistema-academico.iml" filepath="$PROJECT_DIR$/sistema-academico/sistema-academico.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-contactos/sistema-contactos.iml" filepath="$PROJECT_DIR$/sistema-contactos/sistema-contactos.iml" />
       <module fileurl="file://$PROJECT_DIR$/sistema-contactos-arraylist/sistema-contactos-arraylist.iml" filepath="$PROJECT_DIR$/sistema-contactos-arraylist/sistema-contactos-arraylist.iml" />
